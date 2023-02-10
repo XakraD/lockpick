@@ -12,7 +12,7 @@ let minRot = -90,
   pinDamage = 20,
   pinHealth = 100,
   pinDamageInterval = 150,
-  numPins = 5,
+  numPins = 1,
   userPushingCyl = false,
   gameOver = false,
   gamePaused = false,
@@ -273,7 +273,7 @@ window.addEventListener('message', function (event) {
     pinDamage = 20;
     pinHealth = 100;
     pinDamageInterval = 150;
-    numPins = 5;
+    numPins = 1;
     userPushingCyl = false;
     gameOver = false;
     gamePaused = false;

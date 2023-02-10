@@ -19,7 +19,7 @@ end)
 
 
 
-exports('startLockpick', function(tries)
+exports('lockpick', function(tries)
     SendNUIMessage({
         start = true,
         tries = tries
